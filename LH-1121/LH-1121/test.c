@@ -34,7 +34,7 @@ int main() {
 	printf("请输入您要求出的数：\n");
 	scanf("%d", &num);
 	printf("第%d个数的值为：%d\n", num, Fib(num));
-	printf("第%d个数的值为：%d\n", num, Fib2(num));
+	//printf("第%d个数的值为：%d\n", num, Fib2(num));
     system("pause");
     return 0;
 }
