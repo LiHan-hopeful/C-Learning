@@ -6,7 +6,7 @@ int Power(int n, int k) {
 	if (k == 1) {
 		return n;
 	}
-		return n * Power(n , k-1);	
+	return n * Power(n, k - 1);
 }
 
 int main() {
@@ -17,6 +17,6 @@ int main() {
 	int result = 0;
 	result = Power(n, k);
 	printf("%d\n", result);
-    system("pause");
-    return 0;
+	system("pause");
+	return 0;
 }
